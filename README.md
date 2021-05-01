@@ -17,13 +17,13 @@ The equations that relate 3D point <img src="https://render.githubusercontent.co
 
 <img src="https://render.githubusercontent.com/render/math?math=P=K\, \, \times \,\,[R\,|\,t]">
 
+Distortioncoefficients=(k1 , k2 , p1 , p2 , k3)
+
 
 and k is 3*3 calibration matrix .
 
 Inputs : A collection of images with points whose 2D image coordinates and 3D world coordinates are known.
 
 Outputs: The 3×3 camera calibration matrix , radial distortion coefficients of the lens
-
-Distortioncoefficients=(k1 k2 p1 p2 k3)
 
 
